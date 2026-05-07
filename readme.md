@@ -2,7 +2,7 @@
 
 [Español](readme/readme.es.md) • [Nederlands](readme/readme.nl.md) • **English**
 
-**Live:** [schoolhub-kids.netlify.app](https://schoolhub-kids.netlify.app/)
+**Website:** [schoolhub-kids.netlify.app](https://schoolhub-kids.netlify.app/)
 
 Interactive learning materials for kids, structured around school subjects. Currently focused on English (numbers, grammar, and vocabulary).
 
