@@ -27,7 +27,6 @@ let score = 0;
 let answered = false;
 
 document.addEventListener('DOMContentLoaded', () => {
-    // Enter key functionality
     document.getElementById('answer').addEventListener('keypress', function(e) {
         if (e.key === 'Enter') {
             if (!answered) {
@@ -38,7 +37,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Start the game
     startNewGame();
 });
 
@@ -81,7 +79,7 @@ window.startNewGame = function() {
     document.getElementById('quizScreen').classList.remove('hidden');
     document.getElementById('endScreen').classList.add('hidden');
 
-    updateUI(); // Setup texts
+    updateUI();
     showQuestion();
 };
 

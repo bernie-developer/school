@@ -6,7 +6,6 @@ function updateMainUI() {
     LangManager.updateSharedUI();
     const t = LangManager.getTexts();
 
-    // Textos de la UI principal
     const setElemText = (id, text) => {
         const el = document.getElementById(id);
         if (el) el.textContent = text;

@@ -62,7 +62,7 @@ const LangManager = {
     }
 };
 
-// Función global para cambiar de idioma
+// Function exposed for onclick in HTML
 window.handleSetLanguage = function(lang) {
     LangManager.setLang(lang);
     if (typeof updateUI === 'function') {
