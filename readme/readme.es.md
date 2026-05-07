@@ -1,44 +1,34 @@
-# Plataforma de Proyectos Escolares
+# School Hub
 
 [English](../readme.md) • [Nederlands](readme.nl.md) • **Español**
 
-Este repositorio contiene materiales de aprendizaje interactivos diseñados para niños, estructurados en torno a asignaturas escolares. Actualmente se centra en el aprendizaje de inglés (números, gramática y vocabulario) adaptado inicialmente para estudiantes jóvenes (por ejemplo, en colegios chilenos), pero aplicable a cualquier entorno.
+Materiales de aprendizaje interactivos para niños, organizados por asignaturas escolares. Actualmente centrado en inglés (números, gramática y vocabulario).
 
-## Contenido
+## Módulos
 
-El proyecto funciona como un centro (hub) que contiene varios módulos interactivos:
-
-- **index.html**: Un panel principal visualmente atractivo para navegar por los diferentes módulos. Soporta detección automática de idioma (inglés, español, holandés) con opción de cambio manual mediante botones en la interfaz.
-- **english/english-numbers.html**: Página HTML con una colorida tabla del 1 al 20. Presenta elementos interactivos para niños pequeños.
-- **english/english-numbers-quiz.html**: Un quiz aleatorio donde los alumnos escriben el número correspondiente a una palabra en inglés.
-- **english/talent-test.html**: Un mini-test enfocado en gramática y vocabulario de acciones (ej. likes/doesn't like).
-
-## Visión y Arquitectura
-
-El objetivo es expandir esta plataforma para poder generar automáticamente tests o quizzes basados en contenido escolar (ej. libros de texto). La arquitectura está pensada para integrarse con herramientas de IA (como APIs de LLMs) en el futuro, con el fin de generar contenido pedagógico, pruebas y material multimedia de forma automatizada.
-
-La estructura del proyecto está diseñada para ser fácilmente interpretada por herramientas de IA (como Gemini CLI/MCP) para asistencia en el código, generación de contenido y mantenimiento.
+- **Números en Inglés** — tabla colorida del 1 al 20
+- **Quiz de Números** — quiz aleatorio donde los alumnos escriben el número correspondiente a una palabra en inglés
+- **Prueba de Talentos** — mini-test de gramática y vocabulario de acciones (likes/doesn't like)
 
 ## Instalación
 
-Descarga los archivos y abre `index.html` en tu navegador.
+Descarga los archivos y abre `index.html` en el navegador — no se necesita servidor.
 
-## Detalles técnicos
+Para recompilar el CSS tras hacer cambios:
 
-```
-- Vanilla JavaScript y HTML/CSS (Tailwind para estilos)
-- LocalStorage para guardar preferencias de idioma del usuario y estados simples
-- No requiere herramientas de compilación complejas para el frontend
-- Funciona sin conexión a internet
+```bash
+npm install
+npm run build:css
 ```
 
-## Compatibilidad
+## Tecnología
 
-Probado en navegadores modernos (Chrome, Firefox, Safari). Debería funcionar en cualquier navegador razonablemente actualizado.
+- Vanilla JavaScript, HTML, CSS
+- Tailwind CSS (compilado, sin CDN)
+- Fuentes cargadas localmente (sin internet)
+- LocalStorage para preferencia de idioma
+- Compatible con inglés, español y neerlandés
 
 ## Licencia
 
-No apto para uso comercial. Requiere atribución si se utiliza.
-
----
-*Actualizado: Mayo 2026*
+No apto para uso comercial. Requiere atribución.
