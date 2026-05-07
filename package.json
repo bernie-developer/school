@@ -1,0 +1,12 @@
+{
+  "name": "school-hub",
+  "version": "1.0.0",
+  "description": "Interactive Learning Materials Hub",
+  "scripts": {
+    "build:css": "tailwindcss -i ./css/input.css -o ./css/tailwind.css --minify",
+    "dev:css": "tailwindcss -i ./css/input.css -o ./css/tailwind.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}

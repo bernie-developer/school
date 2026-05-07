@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Projects Hub</title>
+
+    <!-- CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- JavaScript -->
+    <script src="data/i18n.js" defer></script>
+    <script src="js/components.js" defer></script>
+    <script src="js/lang-manager.js" defer></script>
+    <script src="js/main.js" defer></script>
+</head>
+<body class="min-h-screen text-slate-800 flex flex-col">
+    <!-- Navbar Compartido -->
+    <school-navbar base-path=""></school-navbar>
+
+    <!-- Header -->
+    <header class="bg-indigo-600 text-white py-16 text-center px-4">
+        <h1 class="text-4xl md:text-5xl font-black mb-4" id="header-title"></h1>
+        <p class="text-xl md:text-2xl text-indigo-100 max-w-2xl mx-auto" id="header-desc"></p>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 flex-grow w-full">
+
+        <!-- Category: English -->
+        <div class="mb-12">
+            <div class="flex items-center mb-6">
+                <span class="text-4xl mr-3">🇺🇸</span>
+                <h2 class="text-3xl font-bold text-slate-800" id="cat-english"></h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <!-- Numbers Theory -->
+                <a href="english/english-numbers.html" class="block bg-white rounded-2xl p-6 border border-slate-200 transition-all card-hover group">
+                    <div class="bg-amber-100 text-amber-600 w-12 h-12 rounded-xl flex items-center justify-center text-2xl font-black mb-4 group-hover:bg-amber-500 group-hover:text-white transition-colors">123</div>
+                    <h3 class="text-xl font-bold mb-2 text-slate-900" id="card-num-title"></h3>
+                    <p class="text-slate-500 mb-4" id="card-num-desc"></p>
+                    <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800" id="badge-theory"></span>
+                </a>
+
+                <!-- Numbers Quiz -->
+                <a href="english/english-numbers-quiz.html" class="block bg-white rounded-2xl p-6 border border-slate-200 transition-all card-hover group">
+                    <div class="bg-emerald-100 text-emerald-600 w-12 h-12 rounded-xl flex items-center justify-center text-2xl font-black mb-4 group-hover:bg-emerald-500 group-hover:text-white transition-colors">🎯</div>
+                    <h3 class="text-xl font-bold mb-2 text-slate-900" id="card-quiz-title"></h3>
+                    <p class="text-slate-500 mb-4" id="card-quiz-desc"></p>
+                    <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-purple-100 text-purple-800" id="badge-quiz"></span>
+                </a>
+
+                <!-- Talent Test -->
+                <a href="english/talent-test.html" class="block bg-white rounded-2xl p-6 border border-slate-200 transition-all card-hover group">
+                    <div class="bg-sky-100 text-sky-600 w-12 h-12 rounded-xl flex items-center justify-center text-2xl font-black mb-4 group-hover:bg-sky-500 group-hover:text-white transition-colors">🌟</div>
+                    <h3 class="text-xl font-bold mb-2 text-slate-900" id="card-talent-title"></h3>
+                    <p class="text-slate-500 mb-4" id="card-talent-desc"></p>
+                    <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-orange-100 text-orange-800" id="badge-test"></span>
+                </a>
+
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer Compartido -->
+    <school-footer></school-footer>
+</body>
+</html>

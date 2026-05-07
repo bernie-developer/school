@@ -1,0 +1,24 @@
+# Ignore IDE and OS specific files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Ignore node modules if added later
+node_modules/
+package-lock.json
+
+# Ignore build artifacts
+dist/
+build/
+
+# Ignore media files (images, audio, video) to save tokens, unless explicitly requested
+*.mp3
+*.mp4
+*.wav
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.svg
+*.ico

@@ -1,0 +1,125 @@
+.module-main {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  flex-grow: 1;
+}
+
+.quiz-container {
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+.quiz-container h1 {
+  color: #5f27cd;
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+.question {
+  font-size: 2.5em;
+  color: #f5576c;
+  margin: 30px 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.quiz-container input {
+  font-size: 2em;
+  padding: 15px 30px;
+  border: 3px solid #764ba2;
+  border-radius: 15px;
+  text-align: center;
+  width: 150px;
+  margin: 20px 0;
+  transition: all 0.3s ease;
+  color: #333;
+}
+
+.quiz-container input:focus {
+  outline: none;
+  border-color: #f5576c;
+  transform: scale(1.05);
+}
+
+.quiz-container button {
+  font-size: 1.5em;
+  padding: 15px 40px;
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin: 10px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+
+.quiz-container button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.feedback {
+  font-size: 2em;
+  margin: 30px 0;
+  font-weight: bold;
+  height: 60px;
+}
+
+.correcto {
+  color: #00d2d3;
+  animation: bounce 0.5s ease;
+}
+
+.malo {
+  color: #ee5a6f;
+  animation: shake 0.5s ease;
+}
+
+.score {
+  font-size: 1.5em;
+  color: #5f27cd;
+  margin: 20px 0;
+}
+
+.final-score {
+  font-size: 3em;
+  color: #f5576c;
+  margin: 30px 0;
+  font-weight: bold;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-10px); }
+  75% { transform: translateX(10px); }
+}
+
+.hidden {
+  display: none !important;
+}
+
+.progress {
+  font-size: 1.3em;
+  color: #764ba2;
+  margin-bottom: 20px;
+}
