@@ -33,4 +33,9 @@ npm run build:css
 
 ## Licencia
 
+![Licencia: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Atribución](https://img.shields.io/badge/Crédito-Requerido-blue.svg)
+
 No apto para uso comercial. Requiere atribución.
+
+> **Nota:** ¿Usas este código en tu propio proyecto? ¡Se agradece un enlace a [mi perfil de GitHub](https://github.com/bernie-developer)!

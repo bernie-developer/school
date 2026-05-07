@@ -33,4 +33,9 @@ npm run build:css
 
 ## Licentie
 
+![Licentie: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Naamsvermelding](https://img.shields.io/badge/Credit-Verplicht-blue.svg)
+
 Niet voor commercieel gebruik. Naamsvermelding verplicht.
+
+> **Opmerking:** Gebruik je deze code voor een eigen project? Een linkje naar [mijn GitHub-profiel](https://github.com/bernie-developer) wordt gewaardeerd!
