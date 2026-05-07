@@ -10,7 +10,7 @@ Interactive learning materials for kids, structured around school subjects. Curr
 - **Numbers Quiz** — randomised quiz where learners type the number for an English word
 - **Talent Test** — mini-test on grammar and action vocabulary (likes/doesn't like)
 
-More modules coming soon.
+More modules are coming soon.
 
 ## Setup
 
