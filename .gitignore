@@ -2,6 +2,10 @@ node_modules/
 .DS_Store
 .idea/
 .claude/
+.debris/
+.megaignore
+nederlands/
+engels/
 gemini.md
 CLAUDE.md
 PROJECT.md
