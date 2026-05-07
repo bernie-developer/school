@@ -1,7 +1,7 @@
 
 const globalI18n = {
     es: {
-        // Compartido
+        // Shared
         homeLink: '⬅ Volver al Inicio',
         
         // index.html
@@ -49,7 +49,7 @@ const globalI18n = {
         resultPerfectTalent: '¡Te pasaste, {name}! 🏆',
         resultGoodTalent: '¡Buen intento, {name}! 👍',
         
-        // -- Preguntas Talent Test --
+        // -- Talent Test Questions --
         talent_q1_q: 'Completa la acción:',
         talent_q1_f: '¡Una bici se maneja! (ride a bike)',
         talent_q2_q: 'Mira al niño feliz. Elige la respuesta correcta:',
@@ -143,7 +143,7 @@ const globalI18n = {
         talent_q10_f: 'To answer about yourself, you use "I do".'
     },
     nl: {
-        // Gedeeld
+        // Shared
         homeLink: '⬅ Terug naar Home',
         
         // index.html
@@ -191,7 +191,7 @@ const globalI18n = {
         resultPerfectTalent: 'Geweldig gedaan, {name}! 🏆',
         resultGoodTalent: 'Goed geprobeerd, {name}! 👍',
 
-        // -- Talent Test Vragen --
+        // -- Talent Test Questions --
         talent_q1_q: 'Maak de actie af:',
         talent_q1_f: 'Op een fiets rij je! (ride a bike)',
         talent_q2_q: 'Kijk naar de blije jongen. Kies het juiste antwoord:',
