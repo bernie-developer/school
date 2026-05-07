@@ -33,6 +33,10 @@ npm run build:css
 - LocalStorage voor taalvoorkeur
 - Beschikbaar in Engels, Spaans en Nederlands
 
+## Status
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ff9e4989-2ab6-4fc3-9505-b2b612bd2775/deploy-status)](https://app.netlify.com/projects/schoolhub-kids/deploys)
+
 ## Licentie
 
 ![Licentie: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
