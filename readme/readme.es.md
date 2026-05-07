@@ -10,6 +10,8 @@ Materiales de aprendizaje interactivos para niños, organizados por asignaturas 
 - **Quiz de Números** — quiz aleatorio donde los alumnos escriben el número correspondiente a una palabra en inglés
 - **Prueba de Talentos** — mini-test de gramática y vocabulario de acciones (likes/doesn't like)
 
+Próximamente más módulos.
+
 ## Instalación
 
 Descarga los archivos y abre `index.html` en el navegador — no se necesita servidor.

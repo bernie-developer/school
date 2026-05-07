@@ -10,6 +10,8 @@ Interactief leermateriaal voor kinderen, gestructureerd rond schoolvakken. Momen
 - **Getallen Quiz** — willekeurige quiz waarbij leerlingen het getal typen dat hoort bij een Engels woord
 - **Talenten Test** — mini-test over grammatica en actiewoorden (likes/doesn't like)
 
+Meer modules volgen.
+
 ## Installatie
 
 Download de bestanden en open `index.html` in de browser — geen server nodig.
