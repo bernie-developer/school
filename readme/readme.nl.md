@@ -2,6 +2,8 @@
 
 [English](../readme.md) • [Español](readme.es.md) • **Nederlands**
 
+**Live:** [schoolhub-kids.netlify.app](https://schoolhub-kids.netlify.app/)
+
 Interactief leermateriaal voor kinderen, gestructureerd rond schoolvakken. Momenteel gericht op Engels (getallen, grammatica en woordenschat).
 
 ## Modules
