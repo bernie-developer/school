@@ -1,24 +1,17 @@
-// Gestor centralizado de idiomas
-// Maneja la lógica de detección, almacenamiento y recuperación de traducciones.
-
 const LangManager = {
-    // Obtiene el idioma actual (con fallback al idioma del navegador o español)
     getLang: function() {
         let savedLang = localStorage.getItem('school_hub_lang');
         if (!savedLang || !globalI18n[savedLang]) {
-            // Detección automática basada en el navegador
             const browserLang = navigator.language || navigator.userLanguage;
             if (browserLang.startsWith('en')) savedLang = 'en';
             else if (browserLang.startsWith('nl')) savedLang = 'nl';
             else savedLang = 'es'; // default
             
-            // Guardar para la próxima vez
             localStorage.setItem('school_hub_lang', savedLang);
         }
         return savedLang;
     },
     
-    // Cambia el idioma actual
     setLang: function(lang) {
         if(globalI18n[lang]) {
             localStorage.setItem('school_hub_lang', lang);
@@ -26,12 +19,10 @@ const LangManager = {
         return this.getLang();
     },
     
-    // Retorna el objeto con los textos del idioma actual
     getTexts: function() {
         return globalI18n[this.getLang()] || globalI18n['es'];
     },
 
-    // Actualiza los elementos compartidos de la UI (Navbar y Footer)
     updateSharedUI: function() {
         const t = this.getTexts();
         const currentLang = this.getLang();
@@ -52,7 +43,6 @@ const LangManager = {
         if (btnEn) btnEn.textContent = 'EN';
         if (btnNl) btnNl.textContent = 'NL';
 
-        // Estilos de botones de idioma
         const btns = ['es', 'en', 'nl'];
         btns.forEach(b => {
             const btn = document.getElementById(`btn-${b}`);
@@ -65,7 +55,6 @@ const LangManager = {
             }
         });
         
-        // Año del footer
         const yearEl = document.getElementById('year');
         if (yearEl) {
             yearEl.textContent = new Date().getFullYear();

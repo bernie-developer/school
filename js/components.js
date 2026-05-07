@@ -1,5 +1,3 @@
-// Web Components para elementos de UI compartidos
-// Esto evita la duplicación de código HTML y sigue las mejores prácticas modernas (2026).
 
 class SchoolNavbar extends HTMLElement {
     connectedCallback() {

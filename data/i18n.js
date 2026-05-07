@@ -1,6 +1,3 @@
-// Archivo central de traducciones
-// En 2026, para proyectos sin servidor (offline), usamos objetos JS globales o ES Modules.
-// Si tuviéramos un servidor local, usaríamos archivos .json con "Import Attributes" (ej: import data from './i18n.json' with { type: 'json' })
 
 const globalI18n = {
     es: {
