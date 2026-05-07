@@ -4,6 +4,8 @@ node_modules/
 .claude/
 gemini.md
 CLAUDE.md
+PROJECT.md
+ANALYSE.md
 .aiignore
 .claudeignore
 css/tailwind.css
